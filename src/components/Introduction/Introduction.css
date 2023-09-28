@@ -1,0 +1,26 @@
+.text {
+  padding-top: 80%;
+  font-size: 35px;
+  padding-bottom: 20%;
+  transition: all 2s ease;
+  opacity: 0;
+}
+
+.text.in {
+  opacity: 1;
+  padding-top: 30%;
+}
+
+@media screen and (min-width: 800px) {
+  .text {
+    padding-top: 40%;
+    font-size: 60px;
+    font-weight: 100;
+    padding-left: 18%;
+    padding-right: 18%;
+  }
+
+  .text.in {
+    padding-top: 12%;
+  }
+}
