@@ -1,0 +1,41 @@
+.toggle-menu {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    background: transparent;
+}
+
+@media screen and (max-width: 1200px) {
+    .toggle-menu {
+        right: 0;
+        top: 0;
+    }
+}
+
+.buttons {
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 200px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.round-button {
+    border-radius: 50%;
+    border: none;
+    background-color: white;
+    margin: 5px 0;
+    padding: 10px;
+}
+
+.round-button svg {
+    border-radius: 50%;
+}
+
+.round-button:hover {
+    cursor: pointer;
+}
