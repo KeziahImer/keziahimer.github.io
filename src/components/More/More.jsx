@@ -1,19 +1,13 @@
 import './More.css';
 
 const More = () => {
-    const [inAnimation, setInAnimation] = useState(false);
-    useEffect(() => {
-        setTimeout(() => {
-            setInAnimation(true);
-        }, 500)
-    }, [])
     return (
-        <div style={{ display: flex, flexDirection: 'row' }}>
+        <div style={{ display: 'flex', flexDirection: 'row' }}>
             <div class="more-left">
-
+                About me uygfeauhfea uhfeafeafiyb eafheauifhifrjfo bv ibzfiyeiyf
             </div>
             <div class="more-right">
-
+                I am a developer
             </div>
         </div>
         

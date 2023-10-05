@@ -1,0 +1,42 @@
+.project {
+    width: 400px;
+    height: 280px;
+    background-color: black;
+    margin-bottom: 20px;
+}
+
+.image {
+    width: 100%;
+    height: 78%;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+}
+
+.description {
+    padding-left: 4%;
+    padding-top: 2%;
+}
+
+.name {
+    color: white;
+    font-size: 15px;
+}
+
+.subname {
+    color: grey;
+    font-size: 10px;
+}
+
+@media screen and (max-width: 400px) {
+    .project {
+        width: 100%;
+        height: calc(70vw);
+    }
+}

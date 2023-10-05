@@ -36,6 +36,11 @@
     border-radius: 50%;
 }
 
+.round-button img {
+    height: 24px;
+    width: 24px;
+}
+
 .round-button:hover {
     cursor: pointer;
 }
