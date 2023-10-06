@@ -22,3 +22,8 @@
         padding-right: 18%;
     }
 }
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
