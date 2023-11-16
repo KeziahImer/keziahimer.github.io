@@ -41,5 +41,9 @@
   "devDependencies": {
     "gh-pages": "^6.0.0"
   },
-  "homepage": "https://keziahimer.github.io"
+  "homepage": "https://keziahimer.github.io",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC"
 }
