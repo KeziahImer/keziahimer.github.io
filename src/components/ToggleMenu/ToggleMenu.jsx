@@ -14,7 +14,7 @@ const ToggleMenu = () => {
     }
 
     const handleCClick = () => {
-        window.open('https://drive.google.com/file/d/1vohcZ2b55Sh3_AHEGLVI4HEI58NUzYF1/view?usp=sharing', '_blank');
+        window.open('https://drive.google.com/file/d/16oKhhoVb7rF1PqeS9QKtCGpcxTWI_lRE/view?usp=sharing', '_blank');
     }
 
     return (
