@@ -12,7 +12,7 @@ const Introduction = () => {
     <div class={"text" + (inAnimation ? " in" : "")}>
       Welcome !
       <br />
-      I'm Kéziah IMER. I'm a French computer science student. I'm currently studying at EPITECH. I'm searching for freelance missions from September 2024 to June 2025.
+      I'm Kéziah IMER, a French computer science student currently studying at EPITECH. I'm looking for a part-time internship from September 2025 to February 2026, followed by an end-of-study internship from March 2026 to August 2026.
     </div>
   );
 };
